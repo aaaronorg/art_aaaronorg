@@ -86,7 +86,7 @@
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
-        margin-top: -($indent-var);
+        /*margin-top: -($indent-var);*/
       }
     }
   }
