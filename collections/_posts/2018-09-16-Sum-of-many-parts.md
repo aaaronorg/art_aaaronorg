@@ -7,7 +7,7 @@ categories: Procreate_Workflow Course
 ---
 
 
-# Introduction: The sum of many parts
+# The sum of many parts
 
 To get a realistic representation of analogue watercolour takes many small ingredients that work together in unison. We also want to build a method of working that keeps out of our way as much as possible. I have separated my workflow into five main stages, the idea being that we will work through the stages linearly 1-5 resulting in a finished piece of artwork by the end. 
 

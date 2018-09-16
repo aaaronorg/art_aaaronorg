@@ -136,6 +136,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - collections
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -256,6 +257,16 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections_dir: collections
+collections:
+  digital_watercolour_course:
+    output: true
+    permalink: /:collection/:path/
+  showcase:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -270,3 +281,37 @@ defaults:
       comments: # true
       share: false
       related: false
+      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: false
+      related: false
+
+  # _showcase
+  - scope:
+      path: ""
+      type: showcase
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
+      
+  # _digital_watercolour_course
+  - scope:
+      path: ""
+      type: digital_watercolour_course
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
+      sidebar:
+        nav: course

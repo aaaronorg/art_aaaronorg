@@ -1,0 +1,30 @@
+course:
+  - title: Preliminaries
+    children:
+      - title: Forward
+        url: /digital_watercolour_course/Forward
+      - title: Introduction
+        url: /digital_watercolour_course/introduction
+      - title: Using shortcuts
+        url: /digital_watercolour_course/shortcuts
+        
+  - title: Phase 1
+    children:
+      - title: Base file
+        url:  /digital_watercolour_course/base_file
+      - title: Mark-making
+        url:  /digital_watercolour_course/mark_making
+
+  - title: Phase 2
+    children:
+      - title: Displacement
+        url:  /digital_watercolour_course/displacement
+      - title: Edge-darkening
+        url:  /digital_watercolour_course/edge_darkening
+      - title: Post-production
+        url:  /digital_watercolour_course/post_production
+        
+  - title:
+    children:
+      - title: Additional resources
+        url: /digital_watercolour_course/additional_resources
