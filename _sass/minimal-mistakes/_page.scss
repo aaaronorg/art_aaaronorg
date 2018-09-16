@@ -286,7 +286,7 @@
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 5%);
+  border: 0px 1px dotted mix(#000, $border-color, 5%);
   border-radius: $border-radius;
 
   &:hover {
