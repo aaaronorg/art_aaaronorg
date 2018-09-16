@@ -72,6 +72,12 @@
   img {
     width: 100%;
   }
+  hr {
+    width: 20%;
+    height: 10px;
+    bacground: $dark-gray;
+    margin: 15px auto 30px;
+  }
 }
 
 .archive__item-caption {
