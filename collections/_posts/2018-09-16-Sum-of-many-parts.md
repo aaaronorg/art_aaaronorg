@@ -2,7 +2,7 @@
 layout:     single
 title:      Introduction
 date:       2018-09-16 16:00
-summary:    Outline of how this course will be broken down.
+excerpt:    Outline of how this course will be broken down.
 categories: Procreate_Workflow Course
 ---
 
