@@ -61,9 +61,9 @@
   }
 }
 
-.page__lead {
+.page__lead, p.page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-3;
 }
 
 .page__content {
