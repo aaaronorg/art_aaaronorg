@@ -1,7 +1,7 @@
 ---
 layout:     single
 title:      The idea of a digital sketch collection 
-date:       2017-11-11 11:00:00
+date:       2017-11-11
 excerpt:    "Dear Instagram, Good Bye and Good Riddance."
 categories: site opinion
 ---
