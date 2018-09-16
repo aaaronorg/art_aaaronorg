@@ -61,7 +61,7 @@
   }
 }
 
-.page__lead, p.page__lead {
+.page__lead {
   font-family: $global-font-family;
   font-size: $type-size-3;
 }
@@ -89,6 +89,11 @@
         /*margin-top: -($indent-var);*/
       }
     }
+  }
+  
+  .page__lead {
+    font-family: $global-font-family;
+    font-size: $type-size-3;
   }
 
   a:not(.btn) {
