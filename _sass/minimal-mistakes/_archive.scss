@@ -37,6 +37,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a {
+    text-decoration: none;
+    color: $darker-gray;
+  }
+
   a + a {
     opacity: 0.5;
   }
