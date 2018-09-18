@@ -3,7 +3,8 @@ layout:     single
 title:      Introduction
 date:       2018-09-16 16:00
 excerpt:    Outline of how this course will be broken down.
-categories: Procreate_Workflow Course
+categories: Courses
+tags: Procreate watercolour workflow
 ---
 
 

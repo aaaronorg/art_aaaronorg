@@ -5,7 +5,7 @@ date:       2017-11-11
 header:
     teaser: /assets/images/2017-11-12-national-musuem-collection.jpg
 excerpt:    "Dear Instagram, Good Bye and Good Riddance."
-categories: site opinion
+categories: opinion
 ---
 
 > The likes of Instagram, Facebook and Twitter et al leave me cold and numb.
