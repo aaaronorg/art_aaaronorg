@@ -19,11 +19,6 @@
   }
 }
 
-.layout--home #main {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .page {
   @include breakpoint($large) {
     float: right;
