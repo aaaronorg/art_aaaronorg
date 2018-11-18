@@ -222,7 +222,7 @@
 
   .archive__item-title {
     margin-bottom: 0;
-    @include breakpoint(min-width $x-large) {
+    @include breakpoint(max-width $x-large) {
       margin-left: .5em;
     }
     @include breakpoint($small) {
@@ -394,7 +394,7 @@
 
   .home .page__meta_container {
     max-width: 300px;
-    @include breakpoint(min-width $x-large) {
+    @include breakpoint(max-width $x-large) {
       margin-left: .5em;
     }
   }
