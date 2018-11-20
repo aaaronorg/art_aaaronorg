@@ -395,6 +395,6 @@
   .home .page__meta_container {
     max-width: 300px;
     @include breakpoint(max-width $x-large) {
-      margin-left: .5em;
+      margin-left: .5rem;
     }
   }
