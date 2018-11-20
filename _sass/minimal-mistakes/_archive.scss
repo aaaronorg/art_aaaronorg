@@ -37,7 +37,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   @include breakpoint(max-width $x-large) {
-    margin-left: .5em;
+    margin-left: .5rem;
   }
   @include breakpoint($small) {
     font-size: $type-size-2;
