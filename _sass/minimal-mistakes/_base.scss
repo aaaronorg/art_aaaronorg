@@ -48,6 +48,12 @@ h2
 {
   font-size: $type-size-0;
   line-height: 1em;
+    @include breakpoint(max-width $medium) {
+      font-size: $type-size-3;
+    }
+    @include breakpoint(max-width $medium-wide) {
+      font-size: $type-size-2;
+    }
 }
 }
 

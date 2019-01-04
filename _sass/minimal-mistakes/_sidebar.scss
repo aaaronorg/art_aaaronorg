@@ -36,10 +36,6 @@
     }
   }
 
-  @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
-  }
-
   > * {
     margin-top: 1em;
     margin-bottom: 1em;

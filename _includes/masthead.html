@@ -1,8 +1,33 @@
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% if author.avatar %}
+          <div class="author__avatar">
+            {% if author.avatar contains "://" %}
+              {% assign author_src = author.avatar %}
+            {% else %}
+              {% assign author_src = author.avatar | relative_url %}
+            {% endif %}
+
+            {% if author.home %}
+              {% if author.home contains "://" %}
+                {% assign author_link = author.home %}
+              {% else %}
+                {% assign author_link = author.home | relative_url %}
+              {% endif %}
+              <a href="{{ author_link }}">
+                <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+              </a>
+            {% else %}
+            <a href="{{ '/' | relative_url }}">
+              <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+            </a>
+            {% endif %}
+          </div>
+        {% endif %}
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {%- if link.url contains '://' -%}

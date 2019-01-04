@@ -8,14 +8,10 @@
 
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    width:90%;
+    margin-right:5%;
   }
 
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
-  }
 }
 
 .archive__subtitle {
@@ -34,8 +30,9 @@
   margin-bottom: 0.25em;
   font-family: $serif;
   line-height: initial;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
+  margin-bottom: 1.5rem;
   @include breakpoint(max-width $x-large) {
     margin-left: .5rem;
   }
@@ -63,7 +60,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -74,9 +71,24 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+  float:right;
+  max-width: calc(100% - #{$right-sidebar-width+50px});
+  @include breakpoint($x-large) {
+    max-width: calc(100% - #{$right-sidebar-width+50px});
+  }
+  @include breakpoint(max-width $medium) {
+    max-width: 100%;
+    width:100%;
+    float:none;
+    clear:both;
+    border-radius: 0;
+  }
 
   img {
     width: 100%;
+    @include breakpoint(max-width $medium) {
+      border-radius: 0;
+    }
   }
   hr {
     width: 80%;
@@ -116,9 +128,11 @@
    ========================================================================== */
 
 .list__item {
+  float:left;
+  clear:both;
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: $type-size-6;
   }
 }
 
@@ -202,7 +216,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-5;
     }
   }
 
@@ -393,8 +407,14 @@
    ========================================================================== */
 
   .home .page__meta_container {
+    float:left;
     max-width: 300px;
     @include breakpoint(max-width $x-large) {
       margin-left: .5rem;
+    }
+    p
+    {
+      border-top: 1px solid rgba(0, 0, 0, 0.0980392)
+
     }
   }
