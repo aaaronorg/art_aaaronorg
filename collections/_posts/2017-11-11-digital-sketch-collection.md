@@ -11,7 +11,7 @@ categories: opinion
 > The likes of Instagram, Facebook and Twitter et al leave me cold and numb.
 {: .page__lead}
 
-*Dear Instagram, Good Bye and Good Riddance.*
+*Dear Instagram, Good Bye and Good Riddance!*
 
 In comparison to an analogue sketchbook there really is no real digital equivalent to me. We live in an age of mass consumption. But are we really *consuming* anything? To me the systematic pull-to-refresh and aimlessly scrolling a feed feels more like chewing and then spitting out—a reflex, a mindless habit. To actually consume you also need to digest. The likes of Instagram, Facebook and Twitter et al leave me cold and numb.
 
