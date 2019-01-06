@@ -10,7 +10,7 @@ var store = [{
         "url": "http://0.0.0.0:4000/site/hello-world/",
         "teaser":null},{
         "title": "The idea of a digital sketch collection",
-        "excerpt":"The likes of Instagram, Facebook and Twitter et al leave me cold and numb. Dear Instagram, Good Bye and Good Riddance! In comparison to an analogue sketchbook there really is no real digital equivalent to me. We live in an age of mass consumption. But are we really consuming anything?...","categories": ["opinion"],
+        "excerpt":"The likes of Instagram, Facebook and Twitter et al leave me cold and numb. Dear Instagram, Good Bye and Good Riddance!! In comparison to an analogue sketchbook there really is no real digital equivalent to me. We live in an age of mass consumption. But are we really consuming anything?...","categories": ["opinion"],
         "tags": [],
         "url": "http://0.0.0.0:4000/opinion/digital-sketch-collection/",
         "teaser":"http://0.0.0.0:4000/assets/images/2017-11-12-national-musuem-collection.jpg"},{
