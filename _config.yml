@@ -260,7 +260,7 @@ compress_html:
 # Collections
 collections_dir: collections
 collections:
-  digital_watercolour_course:
+  digital_watercolour_theory:
     output: true
     permalink: /:collection/:path/
   showcase:
@@ -304,10 +304,10 @@ defaults:
       share: false
       related: false
       
-  # _digital_watercolour_course
+  # _digital_watercolour_theory
   - scope:
       path: ""
-      type: digital_watercolour_course
+      type: digital_watercolour_theory
     values:
       layout: single
       author_profile: true

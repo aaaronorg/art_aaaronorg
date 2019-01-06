@@ -1,6 +1,6 @@
 main:
-  - title: "Digital Watercolour Course"
-    url: /digital_watercolour_course/
+  - title: "Digital Watercolour Theory"
+    url: /digital_watercolour_theory/
   - title: "Archive"
     url: /year-archive/
     
@@ -8,29 +8,29 @@ course:
   - title: Preliminaries
     children:
       - title: Forward
-        url: /digital_watercolour_course/forward
+        url: /digital_watercolour_theory/forward
       - title: Introduction
-        url: /digital_watercolour_course/introduction
+        url: /digital_watercolour_theory/introduction
       - title: Using shortcuts
-        url: /digital_watercolour_course/shortcuts
+        url: /digital_watercolour_theory/shortcuts
         
   - title: Part A
     children:
       - title: Base file
-        url:  /digital_watercolour_course/base_file
+        url:  /digital_watercolour_theory/base_file
       - title: Mark-making
-        url:  /digital_watercolour_course/mark_making
+        url:  /digital_watercolour_theory/mark_making
 
   - title: Part B
     children:
       - title: Displacement
-        url:  /digital_watercolour_course/displacement
+        url:  /digital_watercolour_theory/displacement
       - title: Edge-darkening
-        url:  /digital_watercolour_course/edge_darkening
+        url:  /digital_watercolour_theory/edge_darkening
       - title: Post-production
-        url:  /digital_watercolour_course/post_production
+        url:  /digital_watercolour_theory/post_production
         
   - title:
     children:
       - title: Additional resources
-        url: /digital_watercolour_course/additional_resources
+        url: /digital_watercolour_theory/additional_resources
