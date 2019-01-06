@@ -2,7 +2,7 @@ var store = [{
         "title": "Forward",
         "excerpt":"How would I define ‘digital watercolour’ for the purposes of this course? Digital watercolour refers to an electronic representation of the fundamental characteristics of analogue watercolour. Let’s break that down a bit more: Electronic representation equates to a grid of pixels like any other digital raster image such as a...","categories": [],
         "tags": [],
-        "url": "http://0.0.0.0:4000/digital_watercolour_course/forward/",
+        "url": "http://0.0.0.0:4000/digital_watercolour_theory/forward/",
         "teaser":null},{
         "title": "Hello world",
         "excerpt":"I’m not 100% sure what this little corner of the internet will be for just yet. I started this site out of frustration for feeling like I want to share something but I am not sure what. We will see… ","categories": ["site"],
