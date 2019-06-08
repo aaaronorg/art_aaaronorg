@@ -16,7 +16,7 @@ It might be useful to think of the whole process in terms of the metaphor of a t
 
 ## Opening credits
 
-Every time we start a new piece we will first copy in a pre-existing file stored outside Procreate with several things already set up for us.
+Every time we start a new piece we will first copy in a pre-existing file stored outside Procreate with several things already set up for us. This is not strictly necessary but makes our life much easier.
 
 # Act 1
 
