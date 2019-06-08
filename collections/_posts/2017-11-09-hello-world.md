@@ -2,7 +2,7 @@
 layout:     single
 title:      Hello world
 date:       2017-11-09
-excerpt:    "The best laid plans of mice and men…"
+excerpt:    "Preview The best laid plans of mice and men…"
 categories: site
 ---
 
